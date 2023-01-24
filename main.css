@@ -142,11 +142,11 @@ section .container .social-media li{
 }
 
 body{
-    background-image:url(imagem/pexels-thisisengineering-3861969.jpg)
+    background-color: rgb(196, 228, 255);
 }
 
 #sobre-nos{
-    background-color: rgb(174, 231, 228);
+    background-color: rgb(196, 228, 255);
 }
 
 #produtos{
