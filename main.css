@@ -1,0 +1,209 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1366px;
+    margin:0px auto;
+}
+
+body p{
+    font-family: sans-serif;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container nav li{
+    display: inline;
+}
+
+header img{
+    height: 40px;
+    margin-right: 350px;
+    border-radius: 10px;
+}
+
+header,nav li a{
+    background-color: #000;
+    color: white;
+    font-family:'Rubik Mono One', sans-serif;
+    padding: 10px;
+    font-weight: normal;
+}
+
+header nav li a{
+    text-decoration: none;
+}
+
+header nav li a:hover{
+    text-decoration: underline;
+}
+
+main .automation img{
+    height: 600px;
+    margin-top: 16px;
+    margin-right:16px;
+}
+
+main .container .automation{
+    display: flex;
+    margin-top: 16px;
+}
+
+main .container .automation h2,p{
+    text-align: center;
+    margin: 19px 0px;
+}
+main .container .automation h2{
+    font-family:'Rubik Mono One', sans-serif;
+    font-weight: normal;
+}
+
+section h2{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family:'Rubik Mono One', sans-serif;
+}
+
+section .container img{
+    height: 600px;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+section .container .robos{
+    display: flex;
+    flex-direction:column;
+    margin: 20px 0px;
+}
+
+section{
+    margin-top:10px;
+}
+
+#produtos .container article {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+#produtos .container a{
+    border: 2px solid rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: #888;
+    color: gold;
+    padding: 3px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+#produtos .container a:hover{
+    text-decoration:underline ;
+}
+
+#produtos .container article h3,p{
+    margin-bottom: 24px;
+    margin-left:24px;
+}
+
+#produtos .container article h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+section .contato form input{
+    display: block;
+}
+
+section .contato form button{
+    padding:4px;
+    color: gold;
+    background-color: gray;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+
+section .container .social-media img{
+    height: 24px;
+}
+
+section .container .social-media li{
+    display: inline;
+    margin-left:56px;
+}
+
+body{
+    background-image:url(imagem/pexels-thisisengineering-3861969.jpg)
+}
+
+#sobre-nos{
+    background-color: rgb(174, 231, 228);
+}
+
+#produtos{
+    background-color: azure;
+}
+
+#servicos{
+    background-color: honeydew;
+}
+
+#contato .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contato .container h3{
+    font-family:'Rubik Mono One', sans-serif;
+}
+
+#contato .container .social-media{
+    margin-top: 20px;
+}
+
+#contato .container form input{
+    margin-bottom: 12px;
+}
+
+#contato .container .endereço p{
+    font-family:  'Rubik Mono One', sans-serif;
+    font-size: 12px;
+    color: gray;
+}
+
+#contato .contato label{
+    font-family:  'Rubik Mono One', sans-serif;
+    font-size: 12px;
+    color: gray;
+    cursor: pointer;
+}
+
+#contato .contato label:hover{
+    color: black;
+}
+
+#contato .contato button:hover{
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: #000;
+    padding:12px;
+    color: azure;
+    font-family:  'Rubik Mono One', sans-serif;
+    font-size: 12px;
+    font-weight:normal;
+}
